@@ -12,4 +12,5 @@ def oxford_comma(array)
   array4 = [kiwi,durian,starfruit,mangos]
   array5 = [kiwi,durian,starfruit,mangos,dragon_fruits]
   step1
+  step2
 end
