@@ -5,10 +5,10 @@ def oxford_comma(array)
   mangos = "mangos"
   dragon_fruits = "dragon fruits"
   array1 = [kiwi]
-  array2 = ["kiwi and durian"]
+  array2 = [kiwi,durian]
   array3 = [kiwi,durian,starfruit]
   array4 = [kiwi,durian,starfruit,mangos]
   array5 = [kiwi,durian,starfruit,mangos,dragon_fruits]
-  kiwi
-  array2
+  array1
+  
 end
