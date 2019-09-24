@@ -10,5 +10,5 @@ def oxford_comma(array)
   mangos = "mangos"
   dragon_fruits = "dragon fruits"
   array1 = [kiwi]
-  
+  kiwi
 end
