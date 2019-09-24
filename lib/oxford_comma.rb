@@ -3,7 +3,7 @@ def oxford_comma(array)
   new_array = []
   array = ["kiwi","durian","starfruit","mangos","dragon fruits"]
   array.collect.each_with_index do {|fruit, index| ""}
-    new_array = [array.at()]
+    new_array = [array.at(0)]
     counter += 1
   end
 end
