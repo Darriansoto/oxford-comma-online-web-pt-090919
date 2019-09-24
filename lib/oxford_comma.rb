@@ -1,10 +1,9 @@
 def oxford_comma(array)
-  counter = 1
-  new_array = []
-  array = ["kiwi","durian","starfruit","mangos","dragon fruits"]
-  # array.collect.each_with_index do {|fruit, index| ""}
-    new_array = [array.at(0)]
-    
-    counter += 1
+  if array.size == 1
+    return array[0]
+  elsif array.size == 2
+    return array.join(" and ")
+  else
+    return array[0..-2].join(', ') + ", and " + array[-1]
   end
 end
